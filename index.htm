@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kazi Tawfiq — Mechatronics Portfolio</title>
+  <meta name="description" content="Kazi Tawfiq Bin Ali — Mechatronics portfolio, Alstom project highlights, CV, projects and contact." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="logo-dot" aria-hidden="true"></span>
+        <span class="brand-text">Kazi <strong>Tawfiq</strong></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Menu</span>
+          <div class="burger" aria-hidden="true"></div>
+        </button>
+        <ul id="nav-menu">
+          <li><a href="#home" data-scroll>Home</a></li>
+          <li><a href="#alstom" data-scroll>Alstom</a></li>
+          <li><a href="#experience" data-scroll>Experience</a></li>
+          <li><a href="#projects" data-scroll>Projects</a></li>
+          <li><a href="#skills" data-scroll>Skills</a></li>
+          <li><a href="#cv" data-scroll>CV</a></li>
+          <li><a href="#contact" data-scroll>Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="controls">
+        <button id="theme-toggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle light/dark">
+          <span class="icon-sun" aria-hidden="true"></span>
+          <span class="icon-moon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <h1 class="title">Hi, I’m <span class="accent">Kazi Tawfiq</span></h1>
+          <p class="subtitle">Mechatronics Engineering (Honours), <span class="unsw">UNSW Sydney</span></p>
+          <p class="lead">
+            I build intelligent, reliable systems — from autonomous robots to data-driven apps.
+            Currently collaborating with <strong>Alstom</strong> on an industrial maintenance optimisation project.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#alstom" data-scroll>See Alstom Work</a>
+            <a class="btn btn-ghost" href="#projects" data-scroll>View Projects</a>
+          </div>
+          <div class="meta-row">
+            <a class="pill" href="https://www.linkedin.com/in/kazitawfiq/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="pill" href="mailto:kazitawfiq08@gmail.com">Email</a>
+            <span class="pill muted">Sydney, AU</span>
+          </div>
+        </div>
+
+        <!-- Hero photo -->
+        <figure class="hero-photo reveal">
+          <!-- Light mode circular image -->
+          <!-- Dark mode rectangular image -->
+          <img src="assets/profile-light.png" alt="Portrait of Kazi Tawfiq" class="photo dark-only" loading="eager" />
+
+          <figcaption>Mechatronics @ UNSW</figcaption>
+        </figure>
+
+        <!-- UNSW logo -->
+        <div class="unsw-badge reveal" aria-label="UNSW Logo">
+          <img src="assets/unsw-placeholder.png" alt="UNSW Sydney logo" />
+        </div>
+      </div>
+
+      <!-- Parallax decor -->
+      <div class="parallax parallax-1" aria-hidden="true"></div>
+      <div class="parallax parallax-2" aria-hidden="true"></div>
+    </section>
+
+    <!-- ALSTOM HIGHLIGHT -->
+    <section id="alstom" class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <h2>Current Work — <span class="accent">Alstom</span></h2>
+          <p class="section-subtitle">
+            Partnered Work Project (CDEV3000), Term 3 2025 — Process optimisation for traction controller repairs.
+          </p>
+        </header>
+
+        <div class="card-grid">
+          <article class="card reveal">
+            <h3>Project Focus</h3>
+            <p>
+              Reducing repair bottlenecks that impact fleet availability by mapping the end-to-end workflow,
+              identifying constraints, and proposing lean, standards-aligned improvements.
+            </p>
+            <ul class="checklist">
+              <li>Current-state mapping & bottleneck analysis</li>
+              <li>Cycle-time & queueing insights for prioritisation</li>
+              <li>Standard work & traceability recommendations</li>
+              <li>KPI pack: turnaround time, WIP, first-pass yield</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Outcomes Targeted</h3>
+            <p>
+              Faster turnarounds, lower variability, and improved asset uptime — creating long-term value for
+              Alstom, operators, and passengers.
+            </p>
+            <div class="kpis">
+              <div><strong>↓ Lead Time </strong><span>Repair cycle</span></div>
+              <div><strong>↑ Uptime </strong><span>Fleet availability</span></div>
+              <div><strong>↑ FPY </strong><span>First-pass success</span></div>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h3>My Contributions</h3>
+            <ul class="bullets">
+              <li>Data collection & visualisation (Python/Excel)</li>
+              <li>Root-cause analysis & countermeasure design</li>
+              <li>Stakeholder workshops & report drafting</li>
+              <li>Implementation roadmap & progress checks</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <h2>Experience</h2>
+          <p class="section-subtitle">Highlights from my CV, plus my current Alstom work.</p>
+        </header>
+
+        <div class="timeline">
+          <article class="t-item reveal">
+            <div class="t-meta">T3 2025 · Sydney</div>
+            <h3>Project Team Member — Alstom x UNSW (CDEV3000)</h3>
+            <p>Maintenance process optimisation for traction controller repairs: mapping, analytics, and standards-aligned improvements.</p>
+            <span class="t-tags">Project Management · CAD/CAM · Electronics · Design · Stakeholders</span>
+          </article>
+
+          <article class="t-item reveal">
+            <div class="t-meta">Jul 2023 – Present</div>
+            <h3>Team Member — Bunnings</h3>
+            <p>Customer-focused guidance across fasteners, power tools, and building materials; smooth team operations.</p>
+            <span class="t-tags">Customer Service · Hardware</span>
+          </article>
+
+          <article class="t-item reveal">
+            <div class="t-meta">2020 – 2022</div>
+            <h3>Private Tutor</h3>
+            <p>IB-DP Physics & Maths tutoring with problem-solving strategies and grade improvements.</p>
+            <span class="t-tags">Teaching · STEM</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section-header reveal">
+          <h2>Projects</h2>
+          <p class="section-subtitle">Robotics, AI, and full-stack work.</p>
+        </header>
+
+        <div class="tabs reveal" data-tabs>
+          <div class="tab-list" role="tablist" aria-label="Project categories">
+            <button role="tab" aria-selected="true" aria-controls="tab-robots" id="tab-btn-robots">Robotics</button>
+            <button role="tab" aria-selected="false" aria-controls="tab-ai" id="tab-btn-ai">AI & ML</button>
+            <button role="tab" aria-selected="false" aria-controls="tab-web" id="tab-btn-web">Web</button>
+          </div>
+
+          <div id="tab-robots" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-robots">
+            <div class="cards">
+              <article class="card">
+                <h3>Micromouse Maze-Solving Robot</h3>
+                <p>Autonomous 10×10 maze navigation with sensor fusion and path planning.</p>
+                <span class="t-tags">C++ · Sensors · Path Planning</span>
+              </article>
+              <article class="card">
+                <h3>Autonomous SumoBot</h3>
+                <p>High-agility robot for target detection, tracking, and ring control.</p>
+                <span class="t-tags">Embedded · Control · CV</span>
+              </article>
+            </div>
+          </div>
+
+          <div id="tab-ai" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-ai" hidden>
+            <div class="cards">
+              <article class="card">
+                <h3>ASL Sign Classifier</h3>
+                <p>CNN using TensorFlow/Keras with augmentation pipeline.</p>
+                <span class="t-tags">TensorFlow · Keras · CV</span>
+              </article>
+              <article class="card">
+                <h3>Finance Trading Simulator</h3>
+                <p>Paper-trading app with live data integration and portfolio logic.</p>
+                <span class="t-tags">Flask · SQLite · APIs</span>
+              </article>
+            </div>
+          </div>
+
+          <div id="tab-web" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-web" hidden>
+            <div class="cards">
+              <article class="card">
+                <h3>Airline Booking & Tracker</h3>
+                <p>Django app with auth, SQL storage, and MVC architecture.</p>
+                <span class="t-tags">Django · SQL · MVC</span>
+              </article>
+              <article class="card">
+                <h3>Toohak Backend</h3>
+                <p>Express.js REST APIs for interactive learning platform.</p>
+                <span class="t-tags">Node · Express · REST</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <h2>Skills</h2>
+          <p class="section-subtitle">A quick view of my toolkit.</p>
+        </header>
+
+        <div class="skills-grid reveal">
+          <div class="skill">
+            <span>Python</span>
+            <div class="meter" data-value="92"><span></span></div>
+          </div>
+          <div class="skill">
+            <span>C/C++</span>
+            <div class="meter" data-value="95"><span></span></div>
+          </div>
+          <div class="skill">
+            <span>JavaScript</span>
+            <div class="meter" data-value="80"><span></span></div>
+          </div>
+          <div class="skill">
+            <span>MATLAB/Simulink</span>
+            <div class="meter" data-value="80"><span></span></div>
+          </div>
+          <div class="skill">
+            <span>Embedded & FPGA</span>
+            <div class="meter" data-value="80"><span></span></div>
+          </div>
+          <div class="skill">
+            <span>CAD (SolidWorks)</span>
+            <div class="meter" data-value="95"><span></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <!-- CV -->
+<section id="cv" class="section">
+  <div class="container">
+    <header class="section-header reveal">
+      <h2>CV</h2>
+      <p class="section-subtitle">View or download my latest CV.</p>
+    </header>
+
+    <div class="cv-frame reveal">
+      <!-- Embedded CV -->
+      <object data="assets/Kazi_CV.pdf#page=1&zoom=100" 
+              type="application/pdf" 
+              aria-label="Embedded CV">
+        <iframe src="assets/Kazi_CV.pdf#page=1&zoom=100" title="CV PDF"></iframe>
+      </object>
+
+      <div class="cv-actions">
+        <a class="btn btn-primary" href="assets/Kazi_CV.pdf" download>Download CV</a>
+        <a class="btn btn-ghost" href="assets/Kazi_CV.pdf#page=1&zoom=100" target="_blank" rel="noopener">Open in new tab</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <header class="section-header reveal">
+          <h2>Contact</h2>
+          <p class="section-subtitle">Let’s build something useful.</p>
+        </header>
+
+        <div class="contact-grid reveal">
+          <div>
+            <ul class="contact-list">
+              <li><strong>Email:</strong> <a href="mailto:kazitawfiq08@gmail.com">kazitawfiq08@gmail.com</a></li>
+              <li><strong>Phone:</strong> <a href="tel:+61478247871">+61 478 247 871</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kazitawfiq/" target="_blank" rel="noopener">linkedin.com/KaziTawfiq</a></li>
+              <li><strong>Location:</strong> Sydney, Australia</li>
+            </ul>
+          </div>
+          <form class="contact-form" action="#" method="post" onsubmit="return false" aria-label="Contact form">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" placeholder="Say hi 👋" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send</button>
+            <p class="form-note">You can always send me an email at kazitawfiq08@gmail.com 👋👋</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Kazi Tawfiq — Mechatronics @ UNSW</p>
+      <div class="footer-links">
+        <a href="#home" data-scroll>Top</a>
+        <a href="#cv" data-scroll>CV</a>
+        <a href="#contact" data-scroll>Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
